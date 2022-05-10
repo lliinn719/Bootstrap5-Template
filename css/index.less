@@ -187,10 +187,6 @@ p {
   .row {
     color: #ffffff;
   }
-
-  .text {
-    text-align: justify;
-  }
 }
 
 /* footer */
@@ -233,4 +229,32 @@ footer {
   .contactBlock {
     height: auto;
   }
+}
+
+@media screen and (max-width:400px) {
+  .carousel-item {
+    height: 300px;
+  }
+
+  .circle {
+    width: 100px;
+    height: 100px;
+  }
+
+  .text {
+    h3 {
+      font-size: 1.25rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  .card {
+    .imgBlock {
+      height: 150px;
+    }
+  }
+
 }
